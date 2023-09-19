@@ -8,11 +8,24 @@
 
 <form method="get" action="" name="form">
     <label for="fName"> First name:</label>
-    <input type="text" name="fName" id="fName" value="Enter First Name" /><br/>
+    <input type="text" name="fName" id="fName" value="Enter First Name" /><br />
 
     Are you alive?
-    <input>Yes</label><input type="radio" name="alive" id="yes" value="yes">
-    <input>No</label><input type="radio" name="alive" id="no" value="no">
+    <label>Yes</label><input type="radio" name="alive" id="yes" value="yes">
+    <label>No</label><input type="radio" name="alive" id="no" value="no"><br /> <br>
+
+    Check all of the following that apply: <br />
+    <label>Computer Science Principles</label>
+    <input type="checkbox" name="webDesign" value="Web Design" id="webDesign"><br />
+
+    <label for="webDesign">Web Design</label>
+    <input type="checkbox" name="csp" value="Comp Sci Principles" id="csp"><br />
+
+    <label for="cybersecurity">Cybersecurity</label>
+    <input type="checkbox" name="cybersecurity" value="Cybersecurity" id="cybersecurity"><br />
+
+    <input type="submit" value="Take my data"/>
+
 
 </form>
 
